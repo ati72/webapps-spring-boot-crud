@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{css/style.css}">
+    <title>Web Applications (JAVA)</title>
+</head>
+<body>
+    <div class="container-screen-size welcome">
+        <div class="welcome-left">
+            <h1>Hello.</h1>
+        </div>
+        <div class="wrapper">
+            <div class="welcome-right">
+                <p class="welcome-message">Welcome to my project for <span class="italic" style="font-style:italic">Web Applications (JAVA)</span>.</p>
+                <p>In order to pass, my project has to implement most of the following:</p>
+                <ol>
+                    <li>Modules
+                        <ul>
+                            <li>Model</li>
+                            <li>Service</li>
+                            <li>DAO</li>
+                            <li>Controller (MVC / REST)</li>
+                            <li>Web</li>
+                        </ul>
+                    </li>
+                    <li>Functions
+                        <ul>
+                            <li>Validated properties</li>
+                            <li>Custom exceptions</li>
+                            <li>CRUD operations on database</li>
+                            <li>Data filtering</li>
+                        </ul>
+                    </li>
+                    <li style="list-style: none;"><a th:href="@{/players/players-list}">Check it out here</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

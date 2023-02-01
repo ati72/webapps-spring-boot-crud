@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, p, h1{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.container-screen-size{
+    height: 100vh;
+    width: 100vw;  /*ezt is kitörölhetném*/
+    background-color: #bcbdcc;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-screen-size.welcome{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-screen-size.welcome > * {
+    flex: 1;
+}
+
+.welcome-left {
+    text-align: center;
+    font-size: 58px;
+    border-right: 1px solid black;
+}
+
+.welcome-left h1 {
+    font-family: 'Monoton', cursive;
+}
+
+.welcome-message {
+    font-size: 28px;
+}
+
+.container-screen-size.content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
